@@ -1,0 +1,68 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+} 
+
+body {
+
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/876ebfbc-017e-482c-a58e-314707d43b73/dh4fklr-cf667cbb-f018-42d3-b6fe-b33154b6cc42.png/v1/fill/w_1194,h_669,q_70,strp/fantasy_landscape_by_corvidartzz_dh4fklr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg3NmViZmJjLTAxN2UtNDgyYy1hNThlLTMxNDcwN2Q0M2I3M1wvZGg0Zmtsci1jZjY2N2NiYi1mMDE4LTQyZDMtYjZmZS1iMzMxNTRiNmNjNDIucG5nIiwiaGVpZ2h0IjoiPD03MTgiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC84NzZlYmZiYy0wMTdlLTQ4MmMtYTU4ZS0zMTQ3MDdkNDNiNzNcL2NvcnZpZGFydHp6LTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.zS_C7-RR6FnFpEU0wg976FpMqR3ysXEk4jTzy3YylYg) 
+;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#input {
+    margin-bottom: 30px;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.dateText{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weatherForecast {
+    padding-top: 30px;
+    background-color: aqua;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    background-color: inherit;
+    border-radius: 15px;
+    color: #050148;
+}
+
+#button:hover{
+    background-color: #ffffff;
+    color: #050148;
+    transition: 0.2s;
+}
